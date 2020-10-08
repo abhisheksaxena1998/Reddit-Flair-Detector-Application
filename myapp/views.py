@@ -226,7 +226,7 @@ def result(request):
         submission.comments.replace_more(limit=0)
         #co=[]
         tr=[]
-        c=''
+        c=str()
         for top_level_comment in submission.comments:        
             c+=top_level_comment.body  
 
